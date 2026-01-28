@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Vibe Coding Guide Installer
-# 一键安装 Claude Code 最佳实践配置
+# Subagent Guide Installer
+# 一键安装 Claude Code Subagent 最佳实践配置
 
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CLAUDE_DIR="$HOME/.claude"
 
-echo "🚀 Vibe Coding Guide Installer"
+echo "🚀 Subagent Guide Installer"
 echo "================================"
 echo ""
 
@@ -71,6 +71,6 @@ echo "Quick test:"
 echo "   1. Open Claude Code"
 echo "   2. Type: /list-agents"
 echo ""
-echo "📖 Read the full guide: docs/vibe-coding-guide.md"
+echo "📖 Read the full guide: docs/subagent-guide.md"
 echo ""
-echo "Happy Vibe Coding! 🎉"
+echo "Happy Subagent Coding! 🎉"

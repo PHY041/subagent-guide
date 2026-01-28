@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Vibe Coding Guide Uninstaller
-# 卸载 Vibe Coding 配置
+# Subagent Guide Uninstaller
+# 卸载 Subagent Guide 配置
 
 set -e
 
 CLAUDE_DIR="$HOME/.claude"
 
-echo "🗑️  Vibe Coding Guide Uninstaller"
+echo "🗑️  Subagent Guide Uninstaller"
 echo "================================"
 echo ""
 
 # 确认卸载
-read -p "Are you sure you want to uninstall Vibe Coding Guide? (y/N) " -n 1 -r
+read -p "Are you sure you want to uninstall Subagent Guide? (y/N) " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     echo "Cancelled."
