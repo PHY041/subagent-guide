@@ -145,7 +145,8 @@ test-creator → 补测试
 subagent-guide/
 ├── README.md                    # 你在看的这个
 ├── docs/
-│   └── subagent-guide.md        # 完整指南
+│   ├── subagent-guide.md        # 技术参考
+│   └── vibe-coding-guide.md     # Vibe Coding 秘籍（小白教程）
 ├── rules/
 │   ├── agents.md                # Agent Orchestrator 规则
 │   └── coding-style.md          # Python 代码风格
@@ -180,7 +181,8 @@ subagent-guide/
 
 ## 完整文档
 
-- [Subagent 完整指南](docs/subagent-guide.md) - 从小白到高手
+- [Subagent 完整指南](docs/subagent-guide.md) - 技术参考
+- [Vibe Coding 秘籍](docs/vibe-coding-guide.md) - 从小白到高手的完整教程
 
 ## License
 
