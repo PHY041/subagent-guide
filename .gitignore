@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Backup files
+*.backup.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case someone runs npm init)
+node_modules/
