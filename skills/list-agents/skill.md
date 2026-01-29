@@ -60,12 +60,20 @@ description: 列出所有可用的 subagents 及其用途。当用户说「有�
 |-------|------|
 | `statusline-setup` | 配置 Claude Code 状态栏设置 |
 
+## UI/UX/无障碍 (Skills)
+
+| Skill | 用途 | 标准 |
+|-------|------|------|
+| `/ui-reviewer` | UI 代码审查：设计系统合规、响应式、组件结构 | Design Tokens, React/Vue 最佳实践 |
+| `/ux-reviewer` | UX 启发式评估：可用性、用户流程、交互逻辑 | Nielsen Norman 10 条原则 |
+| `/a11y-reviewer` | 无障碍审查：可访问性检查 | WCAG 2.2 AA |
+
 ---
 
 ## 常用场景速查
 
-| 我想要... | 用这个 Agent |
-|----------|-------------|
+| 我想要... | 用这个 Agent/Skill |
+|----------|-------------------|
 | 探索/理解项目 | `Explore` |
 | 规划新功能 | `planner` |
 | Review 代码 | `code-reviewer` |
@@ -76,6 +84,10 @@ description: 列出所有可用的 subagents 及其用途。当用户说「有�
 | 跑 E2E 测试 | `e2e-runner` |
 | 写 Prompt | `prompt-writer` |
 | 更新文档 | `doc-updater` |
+| 检查 UI 代码 | `/ui-reviewer` |
+| 检查用户体验 | `/ux-reviewer` |
+| 检查无障碍 | `/a11y-reviewer` |
+| 前端全面检查 | 并行跑 ui + ux + a11y |
 
 ## 并行运行示例
 

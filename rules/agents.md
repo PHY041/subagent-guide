@@ -366,6 +366,10 @@ Task(subagent_type="security-reviewer", prompt="...", run_in_background=False)
 | "跑一下测试" / "E2E" | e2e-runner |
 | "构建失败了" / "报错了" | build-error-resolver |
 | "并行检查" | code-reviewer + security-reviewer 同时 |
+| "review UI" / "检查 UI" | `/ui-reviewer` skill |
+| "review UX" / "检查用户体验" | `/ux-reviewer` skill |
+| "检查无障碍" / "a11y" / "WCAG" | `/a11y-reviewer` skill |
+| "前端全面检查" | ui-reviewer + ux-reviewer + a11y-reviewer 并行 |
 
 ---
 
